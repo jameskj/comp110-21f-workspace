@@ -1,4 +1,4 @@
-"""Using while loops to count letters in Strings"""
+"""Using while loops to count letters in Strings."""
 
 __author__ = "730463762"
 
