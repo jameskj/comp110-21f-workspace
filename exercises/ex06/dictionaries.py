@@ -10,7 +10,7 @@ def invert(book: dict[str, str]) -> dict[str, str]:
         new_book[book[x]] = x
 
     if len(book) != len(new_book):
-        raise ValueError("Duplicate Keys found in New List.")
+        raise KeyError("Duplicate Keys found in New List.")
     
     return new_book
 
